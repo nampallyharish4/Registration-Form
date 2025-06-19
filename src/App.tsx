@@ -124,10 +124,9 @@ function App() {
     try {
       await new Promise(resolve => setTimeout(resolve, 2000));
       setIsSubmitted(true);
-      // eslint-disable-next-line no-console
       console.log('Registration data:', formData);
     } catch (error) {
-      // eslint-disable-next-line no-console
+
       console.error('Submission error:', error);
     } finally {
       setIsSubmitting(false);
