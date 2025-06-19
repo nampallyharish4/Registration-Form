@@ -45,3 +45,28 @@ This is a modern, minimal React application for a professional registration form
    ```
 
 ## Project Structure
+
+.
+├── src/
+│ ├── App.tsx # Main registration form component
+│ ├── main.tsx # App entry point
+│ └── index.css # Tailwind and custom styles
+├── index.html # HTML template
+├── package.json # Project metadata and scripts
+├── tailwind.config.js # Tailwind CSS config
+├── postcss.config.js # PostCSS config
+├── vite.config.ts # Vite config
+└── tsconfig\*.json # TypeScript configs
+
+## Customization
+
+- **Styling:** Modify `src/index.css` or Tailwind config for custom styles.
+- **Form Fields:** Edit `src/App.tsx` to add or remove fields as needed.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+_Built with ❤️ using React, Vite, and Tailwind CSS._
